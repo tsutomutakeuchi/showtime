@@ -38,12 +38,44 @@
                 </button>
             </nav>
         </header>
-            
-        <div class="main-container">
-            @yield('content')
-        </div>
-            
-        <div class="right-side-contents">
+        
+        <div class="container">
+            <div class="row">    
+                <div class="main col-md-9">
+                    @yield('content')
+                </div>
+                    
+                <div class="right-side-contents col-md-3 border-start">
+                    <h3>過去の試合成績</h3>
+                    <ul>
+                        <li>2023年8月17日</li>
+                        <li>2023年8月16日</li>
+                        <li>2023年8月15日</li>
+                        <li>2023年8月13日</li>
+                        <li>2023年8月12日</li>
+                        <li>2023年8月11日</li>
+                        <li>2023年8月10日</li>
+                        <li>2023年8月19日</li>
+                    </ul>
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination">
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                </a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
         </div>
     </body>
 </html>
