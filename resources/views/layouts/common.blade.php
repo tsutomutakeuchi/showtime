@@ -24,20 +24,18 @@
     <body>
         <header>
             <nav class="navbar navbar-expand-md navbar-dark navbar-laravel">
-                <a class="navbar-brand" href="{{ url('/') }}">
-                        {{ config('app.name', 'Laravel') }}
-                    </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                
+                <a class="navbar-brand" href="{{ url('/') }}">{{ config('app.name', 'Laravel') }}</a>
+                    
                 <div class="collapse navbar-collapse justify-content-center">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav" id="navbarToggleExternalContent">
                         <li class="nav-item"><a class="nav-link" href="{{ url('/stats_by_year') }}">トップ</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{ url('/stats_by_year') }}">年度別成績</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{ url('/stats_by_year') }}">主要項目の成績予測</a></li>
                     </ul>
                 </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                </button>
             </nav>
         </header>
             
