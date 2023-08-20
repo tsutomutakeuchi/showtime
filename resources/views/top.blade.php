@@ -103,6 +103,113 @@
                     </tbody>
                 </table>
             </div>
+            
+            <div class="col-md-8 mx-auto batter">
+                <h3>シーズン成績（打者）</h3>
+                <table class="table">
+                    <thead class="table-dark">
+                        <tr>
+                            <th scope="col">打率</th>
+                            <th scope="col">試合</th>
+                            <th scope="col">打席</th>
+                            <th scope="col">打数</th>
+                            <th scope="col">安打</th>
+                            <th scope="col">二塁打</th>
+                            <th scope="col">三塁打</th>
+                            <th scope="col">本塁打</th>
+                            <th scope="col">打点</th>
+                            <th scope="col">得点</th>
+                            <th scope="col">三振</th>
+                            <th scope="col">四球</th>
+                            <th scope="col">死球</th>
+                            <th scope="col">犠打</th>
+                            <th scope="col">犠飛</th>
+                            <th scope="col">盗塁</th>
+                            <th scope="col">盗塁死</th>
+                            <th scope="col">出塁率</th>
+                            <th scope="col">長打率</th>
+                            <th scope="col">OPS</th>
+                            <th scope="col">得点圏</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="col-md-8 mx-auto pitcher">
+                <h3>シーズン成績（投手）</h3>
+                <table class="table">
+                    <thead class="table-dark">
+                        <tr>
+                            <th scope="col">防御率</th>
+                            <th scope="col">登板</th>
+                            <th scope="col">先発</th>
+                            <th scope="col">完封</th>
+                            <th scope="col">完投</th>
+                            <th scope="col">勝</th>
+                            <th scope="col">負</th>
+                            <th scope="col">H</th>
+                            <th scope="col">HP</th>
+                            <th scope="col">S</th>
+                            <th scope="col">勝率</th>
+                            <th scope="col">投球回</th>
+                            <th scope="col">奪三振</th>
+                            <th scope="col">奪三振率</th>
+                            <th scope="col">QS率</th>
+                            <th scope="col">被打率</th>
+                            <th scope="col">K/BB</th>
+                            <th scope="col">WHIP</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
         </div>
     </div>
 @endsection
